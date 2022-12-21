@@ -18,3 +18,6 @@ map_data = pd.DataFrame(
     columns=['lat', 'lon'])
 
 st.map(map_data)
+
+st.markdown("# Main page 🎈")
+st.sidebar.markdown("# Main page 🎈")
